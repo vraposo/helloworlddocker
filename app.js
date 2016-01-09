@@ -5,7 +5,7 @@ var http = require('http');
 var app = express();
 
 app.get('/', function (request, response, next) {
-	response.send('Hello World!');
+	response.send('Hello World v2!');
 });
 
 var httpServerPort = process.env.PORT || 8080;
