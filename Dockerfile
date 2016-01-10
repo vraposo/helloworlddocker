@@ -11,7 +11,7 @@ ADD . /src
 RUN npm install
 
 # Expose HTTP server
-EXPOSE 8080
+EXPOSE 8080 7000
 
 # Run app
 CMD ["nodemon", "/src/app.js"]
